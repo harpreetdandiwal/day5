@@ -73,14 +73,12 @@ public class collectionframework
         System.out.println(provinces);
 
         ArrayList<Integer> myIntegerArray = new ArrayList<>();
-
-
-
-
-
-
-
-
+        String alpha[] =new String[]{"abc","bca","cab","mate","atem","bac","pop"};
+        for(int a =0; a < alpha.length;a++)
+        {
+            System.out.println(alpha[a]);
+        }
+        
 
     }
 }
